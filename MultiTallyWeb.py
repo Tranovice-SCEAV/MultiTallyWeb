@@ -45,6 +45,13 @@ class TallyWeb:
             <p class="text-center fs-1">NOTHING</p>
         </div>
             '''
+        elif tally_1 == "[PGM][PVW]":
+            tally_1_state = '''
+        <div class="col border border-dark border-3 rounded-pill bg-danger bg-gradient">
+            <p class="text-center fs-1">Source: 1</p>
+            <p class="text-center fs-1 ">ON AIR</p>
+        </div>
+            '''
         if tally_2 == "[PGM]":
             tally_2_state = '''
         <div class="col border border-dark border-3 rounded-pill bg-danger bg-gradient">
@@ -66,6 +73,13 @@ class TallyWeb:
             <p class="text-center fs-1">NOTHING</p>
         </div>
             '''
+        elif tally_2 == "[PGM][PVW]":
+            tally_2_state = '''
+        <div class="col border border-dark border-3 rounded-pill bg-danger bg-gradient">
+            <p class="text-center fs-1">Source: 2</p>
+            <p class="text-center fs-1 ">ON AIR</p>
+        </div>
+            '''
         if tally_3 == "[PGM]":
             tally_3_state = '''
         <div class="col border border-dark border-3 rounded-pill bg-danger bg-gradient">
@@ -85,6 +99,13 @@ class TallyWeb:
         <div class="col border border-dark border-3 rounded-pill bg-secondary bg-gradient">
             <p class="text-center fs-1">Source: 3</p>
             <p class="text-center fs-1">NOTHING</p>
+        </div>
+            '''
+        elif tally_3 == "[PGM][PVW]":
+            tally_3_state = '''
+        <div class="col border border-dark border-3 rounded-pill bg-danger bg-gradient">
+            <p class="text-center fs-1">Source: 3</p>
+            <p class="text-center fs-1 ">ON AIR</p>
         </div>
             '''
         return f'''
